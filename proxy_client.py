@@ -63,5 +63,6 @@ def main():
     finally:
         # always close at the end!
         s.close()
+        
 if __name__ == "__main__":
     main()
