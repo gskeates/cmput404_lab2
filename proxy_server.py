@@ -75,7 +75,7 @@ def client_connection(conn, addr):
 
 def main():
     # Step 1 - listen for incoming connections from proxy_client
-    num_connections = 2
+    num_connections = 10
     # create server socket
     server_socket = create_tcp_socket()
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
